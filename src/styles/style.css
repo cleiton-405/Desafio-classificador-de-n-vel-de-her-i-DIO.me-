@@ -1,3 +1,44 @@
 body{
-    background-color: gray;
+    background-color: rgb(172, 171, 171);
+}
+
+@font-face {
+    font-family: animada;
+    src: url("../fonts/Super\ Squad.ttf");
+}
+
+h1{
+    font-family: animada;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+
+    background-image: linear-gradient(to right, red, blue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    background-color: black;
+    border-radius: 20px;
+    width: 550px;
+    height: 550px;
+    margin: auto;
+}
+
+.first-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.second-scetion{
+    color: white;
 }

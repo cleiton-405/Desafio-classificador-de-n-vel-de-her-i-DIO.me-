@@ -6,17 +6,47 @@
 
     <link rel="stylesheet" href="src/styles/style.css">
 
-    <title>Desafio nível de experiência (XP)</title>
+    <link rel="stylesheet" href="src/styles/root.css">
+
+    <title>Desafio nível de herói (XP)</title>
 </head>
 <body>
-    
-    <nav></nav>
+
+    <h1>Desafio classificador de nível de herói XP (DIO.me)</h1>
 
     <main>
-        
+
+        <section class="first-section">
+            <label>
+                <input type="text" id="nomeheroi" placeholder="Nome do Herói...">
+            </label>
+            <label>
+                <input type="number" id="xpheroi" placeholder="XP do Herói...">
+            </label>
+        </section>
+
+        <br><br>
+
+        <button onclick="result()">Resultado</button>
+
+        <br><br>
+
+        <section class="second-scetion">
+            <output id="output"></output>
+        </section>
     </main>
 
-    <footer></footer>
+    <br><br>
+
+    <footer> 
+        <p>Criado por Cleiton Pinheiro Pereira</p>
+        
+        <ul>
+            <li>Linkedln: </li>
+            <li>Github: </li>
+            <li>E-mail: </li>
+        </ul>
+    </footer>
 
     <script src="src/scripts/script.js"></script>
 </body>
