@@ -25,21 +25,21 @@ function result(){
     }
 
     if(xpheroiValue <= 1000){ // ifs com as comparações do xp e o valor principal
-        output.innerHTML = `O Herói ${nomeheroiValue} está no nível ${xpheroiValue} = Ferro`
+        output.innerHTML = `O ${nomeheroiValue} está no nível ${xpheroiValue} = Ferro`
     }else if(xpheroiValue >= 1001 && xpheroiValue <= 2000){
-        output.innerHTML = `O Herói ${nomeheroiValue} está no nível ${xpheroiValue} = Bronze`
+        output.innerHTML = `O ${nomeheroiValue} está no nível ${xpheroiValue} = Bronze`
     }else if(xpheroiValue >= 2001 && xpheroiValue <= 5000){
-        output.innerHTML = `O Herói ${nomeheroiValue} está no nível ${xpheroiValue} = Prata`
+        output.innerHTML = `O ${nomeheroiValue} está no nível ${xpheroiValue} = Prata`
     }else if(xpheroiValue >= 5001 && xpheroiValue <= 7000){
-        output.innerHTML = `O Herói ${nomeheroiValue} está no nível ${xpheroiValue} = Ouro`
+        output.innerHTML = `O ${nomeheroiValue} está no nível ${xpheroiValue} = Ouro`
     }else if(xpheroiValue >= 7001 && xpheroiValue <= 8000){
-        output.innerHTML = `O Herói ${nomeheroiValue} está no nível ${xpheroiValue} = Platina`
+        output.innerHTML = `O ${nomeheroiValue} está no nível ${xpheroiValue} = Platina`
     }else if(xpheroiValue >= 8001 && xpheroiValue <= 9000){
-        output.innerHTML = `O Herói ${nomeheroiValue} está no nível ${xpheroiValue} = Ascendente`
+        output.innerHTML = `O ${nomeheroiValue} está no nível ${xpheroiValue} = Ascendente`
     }else if(xpheroiValue >= 9001 && xpheroiValue <= 10000){
-        output.innerHTML = `O Herói ${nomeheroiValue} está no nível ${xpheroiValue} = Imortal`
+        output.innerHTML = `O ${nomeheroiValue} está no nível ${xpheroiValue} = Imortal`
     }else{
-        output.innerHTML = `O Herói ${nomeheroiValue} está no nível ${xpheroiValue} = Radiante`
+        output.innerHTML = `O ${nomeheroiValue} está no nível ${xpheroiValue} = Radiante`
     }
 }
 

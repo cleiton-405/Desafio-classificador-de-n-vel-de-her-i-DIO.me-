@@ -1,5 +1,8 @@
 body{
-    background-color: rgb(172, 171, 171);
+    background-image: url("../images/imagem.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 @font-face {
@@ -24,7 +27,6 @@ main{
     align-items: center;
     flex-direction: column;
 
-    background-color: black;
     border-radius: 20px;
     width: 550px;
     height: 550px;
@@ -36,9 +38,80 @@ main{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 20px;
+    gap: 40px;
 }
 
 .second-scetion{
+    font-family: animada;
+    margin-top: 100px;
     color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.second-scetion output{
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+button{
+    font-family: animada;
+    background-image: linear-gradient(to right, red, blue);
+    color: white;
+    border-style: none;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;  
+    transition: box-shadow 0.5s ease;
+}
+
+button:hover{
+    box-shadow: inset 200px 0 0 rgb(85, 84, 84);
+}
+
+input{
+    background-image: linear-gradient(to right, red, blue);
+    border: none;
+    outline: none;
+    border-radius: 23px;
+    text-align: center;
+    padding: 20px;
+    font-family: animada;
+    color: white;
+}
+
+input::placeholder{
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-family: animada;
+}
+
+footer{
+    font-family: animada;
+    color: white;
+    margin-left: 20px;
+
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+}
+
+footer ul{
+    list-style: none;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+footer a:hover{
+    background-image: linear-gradient(to right, red, blue);
 }
